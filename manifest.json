@@ -1,0 +1,358 @@
+{
+  "source_file": "ChatGPT Image 19 июн. 2026 г., 00_05_13.png",
+  "source_resolution_px": [
+    1055,
+    1491
+  ],
+  "scale": "3x",
+  "method": "manual crops from supplied screenshot + Lanczos upscale + light sharpening; some clean versions use OpenCV inpainting",
+  "assets": [
+    {
+      "file": "photos_jpg_3x/01_hero_full_raw.jpg",
+      "source_crop_xyxy": [
+        0,
+        0,
+        1055,
+        489
+      ],
+      "source_size_px": [
+        1055,
+        489
+      ],
+      "output_size_px": [
+        3165,
+        1467
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/02_hero_dish_detail_clean_crop.jpg",
+      "source_crop_xyxy": [
+        470,
+        135,
+        945,
+        465
+      ],
+      "source_size_px": [
+        475,
+        330
+      ],
+      "output_size_px": [
+        1425,
+        990
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/03_seasonal_menu_plate.jpg",
+      "source_crop_xyxy": [
+        220,
+        490,
+        523,
+        746
+      ],
+      "source_size_px": [
+        303,
+        256
+      ],
+      "output_size_px": [
+        909,
+        768
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/04_chef_portrait.jpg",
+      "source_crop_xyxy": [
+        758,
+        490,
+        1055,
+        746
+      ],
+      "source_size_px": [
+        297,
+        256
+      ],
+      "output_size_px": [
+        891,
+        768
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/05_private_dining_room_wide.jpg",
+      "source_crop_xyxy": [
+        0,
+        748,
+        526,
+        959
+      ],
+      "source_size_px": [
+        526,
+        211
+      ],
+      "output_size_px": [
+        1578,
+        633
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/06_gallery_dining_table.jpg",
+      "source_crop_xyxy": [
+        215,
+        965,
+        368,
+        1111
+      ],
+      "source_size_px": [
+        153,
+        146
+      ],
+      "output_size_px": [
+        459,
+        438
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/07_gallery_cocktail.jpg",
+      "source_crop_xyxy": [
+        374,
+        965,
+        523,
+        1111
+      ],
+      "source_size_px": [
+        149,
+        146
+      ],
+      "output_size_px": [
+        447,
+        438
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/08_gallery_greenhouse_interior.jpg",
+      "source_crop_xyxy": [
+        529,
+        965,
+        689,
+        1111
+      ],
+      "source_size_px": [
+        160,
+        146
+      ],
+      "output_size_px": [
+        480,
+        438
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/09_gallery_plated_dish.jpg",
+      "source_crop_xyxy": [
+        696,
+        965,
+        850,
+        1111
+      ],
+      "source_size_px": [
+        154,
+        146
+      ],
+      "output_size_px": [
+        462,
+        438
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/10_gallery_lounge.jpg",
+      "source_crop_xyxy": [
+        855,
+        965,
+        1001,
+        1111
+      ],
+      "source_size_px": [
+        146,
+        146
+      ],
+      "output_size_px": [
+        438,
+        438
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/11_testimonials_green_background_raw.jpg",
+      "source_crop_xyxy": [
+        0,
+        1115,
+        1055,
+        1287
+      ],
+      "source_size_px": [
+        1055,
+        172
+      ],
+      "output_size_px": [
+        3165,
+        516
+      ],
+      "type": "photo_crop_upscaled"
+    },
+    {
+      "file": "photos_jpg_3x/01b_hero_background_clean_inpainted.jpg",
+      "source_crop_xyxy": [
+        0,
+        0,
+        1055,
+        489
+      ],
+      "source_size_px": [
+        1055,
+        489
+      ],
+      "output_size_px": [
+        3165,
+        1467
+      ],
+      "type": "inpainted_photo_crop_upscaled",
+      "note": "Сделано из скриншота: наложенный текст/UI удалены алгоритмически, возможны небольшие артефакты."
+    },
+    {
+      "file": "ui_png_3x/12_logo_wordmark_on_light.png",
+      "source_crop_xyxy": [
+        400,
+        20,
+        660,
+        105
+      ],
+      "source_size_px": [
+        260,
+        85
+      ],
+      "output_size_px": [
+        780,
+        255
+      ],
+      "type": "png_crop_upscaled"
+    },
+    {
+      "file": "ui_png_3x/13_top_olive_mark_on_light.png",
+      "source_crop_xyxy": [
+        498,
+        20,
+        566,
+        52
+      ],
+      "source_size_px": [
+        68,
+        32
+      ],
+      "output_size_px": [
+        204,
+        96
+      ],
+      "type": "png_crop_upscaled"
+    },
+    {
+      "file": "ui_png_3x/14_booking_form_area_raw.png",
+      "source_crop_xyxy": [
+        0,
+        1288,
+        1055,
+        1445
+      ],
+      "source_size_px": [
+        1055,
+        157
+      ],
+      "output_size_px": [
+        3165,
+        471
+      ],
+      "type": "png_crop_upscaled"
+    },
+    {
+      "file": "transparent_png_3x/15_logo_wordmark_transparent.png",
+      "source_crop_xyxy": [
+        400,
+        20,
+        660,
+        105
+      ],
+      "source_size_px": [
+        260,
+        85
+      ],
+      "output_size_px": [
+        780,
+        255
+      ],
+      "type": "transparent_png_cutout_upscaled",
+      "note": "Прозрачность восстановлена автоматически по светлому фону; край может требовать ручной доводки для продакшена."
+    },
+    {
+      "file": "transparent_png_3x/16_top_olive_mark_transparent.png",
+      "source_crop_xyxy": [
+        498,
+        20,
+        566,
+        52
+      ],
+      "source_size_px": [
+        68,
+        32
+      ],
+      "output_size_px": [
+        204,
+        96
+      ],
+      "type": "transparent_png_cutout_upscaled",
+      "note": "Прозрачность восстановлена автоматически по светлому фону; край может требовать ручной доводки для продакшена."
+    },
+    {
+      "file": "transparent_png_3x/17_olive_branch_card_transparent.png",
+      "source_crop_xyxy": [
+        760,
+        735,
+        1055,
+        960
+      ],
+      "source_size_px": [
+        295,
+        225
+      ],
+      "output_size_px": [
+        885,
+        675
+      ],
+      "type": "transparent_png_cutout_upscaled",
+      "note": "Прозрачность восстановлена автоматически по светлому фону; край может требовать ручной доводки для продакшена."
+    },
+    {
+      "file": "transparent_png_3x/18_footer_olive_branch_transparent.png",
+      "source_crop_xyxy": [
+        850,
+        1300,
+        1015,
+        1430
+      ],
+      "source_size_px": [
+        165,
+        130
+      ],
+      "output_size_px": [
+        495,
+        390
+      ],
+      "type": "transparent_png_cutout_upscaled",
+      "note": "Прозрачность восстановлена автоматически по светлому фону; край может требовать ручной доводки для продакшена."
+    }
+  ]
+}
