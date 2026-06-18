@@ -9,23 +9,23 @@ const lightboxClose = document.querySelector("[data-lightbox-close]");
 
 const galleryImages = [
   {
-    src: "./photos_jpg_3x/06_gallery_dining_table.jpg",
+    src: "./assets/enhanced/gallery-dining-table.jpg",
     alt: "Сервированный стол у больших окон",
   },
   {
-    src: "./photos_jpg_3x/07_gallery_cocktail.jpg",
+    src: "./assets/enhanced/gallery-cocktail.jpg",
     alt: "Зелёный коктейль с цитрусом",
   },
   {
-    src: "./photos_jpg_3x/08_gallery_greenhouse_interior.jpg",
+    src: "./assets/enhanced/gallery-greenhouse-interior.jpg",
     alt: "Вечерний интерьер ресторана с зеленью",
   },
   {
-    src: "./photos_jpg_3x/09_gallery_plated_dish.jpg",
+    src: "./assets/enhanced/gallery-plated-dish.jpg",
     alt: "Блюдо с зеленью и грибами",
   },
   {
-    src: "./photos_jpg_3x/10_gallery_lounge.jpg",
+    src: "./assets/enhanced/gallery-lounge.jpg",
     alt: "Уютный лаунж-уголок с растениями",
   },
 ];
