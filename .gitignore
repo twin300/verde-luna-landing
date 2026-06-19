@@ -3,5 +3,8 @@ dist/
 playwright-report/
 test-results/
 tools/models/
+assets/incoming/
+assets/incoming_zip_check/
+assets/zip_preview/
 .DS_Store
 Thumbs.db
