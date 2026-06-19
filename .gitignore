@@ -8,3 +8,5 @@ assets/incoming_zip_check/
 assets/zip_preview/
 .DS_Store
 Thumbs.db
+
+.vercel
