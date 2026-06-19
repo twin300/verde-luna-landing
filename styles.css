@@ -84,6 +84,16 @@ button {
   backdrop-filter: blur(18px);
 }
 
+.site-header:not(.is-scrolled):not(.is-open) .nav-left a,
+.site-header:not(.is-scrolled):not(.is-open) .lang-switch button {
+  color: rgba(255, 248, 226, 0.86);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.42);
+}
+
+.site-header:not(.is-scrolled):not(.is-open) .lang-switch .is-active {
+  color: #fff8e2;
+}
+
 .nav-left,
 .nav-actions {
   display: flex;
